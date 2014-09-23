@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10C4AFC19BB697E00A4052B /* PlaceHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10C4AFB19BB697E00A4052B /* PlaceHolderView.xib */; };
+		F10C4AFE19BB6A8700A4052B /* PlaceHolderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C4AFD19BB6A8700A4052B /* PlaceHolderUIView.swift */; };
+		F18D95EB19AF95A4007E0BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D95EA19AF95A4007E0BE3 /* AppDelegate.swift */; };
+		F18D95ED19AF95A4007E0BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D95EC19AF95A4007E0BE3 /* ViewController.swift */; };
+		F18D95F019AF95A4007E0BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18D95EE19AF95A4007E0BE3 /* Main.storyboard */; };
+		F18D95F219AF95A4007E0BE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18D95F119AF95A4007E0BE3 /* Images.xcassets */; };
+		F18D95FE19AF95A4007E0BE3 /* RutebussTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D95FD19AF95A4007E0BE3 /* RutebussTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18D95F819AF95A4007E0BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18D95DD19AF95A4007E0BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18D95E419AF95A4007E0BE3;
+			remoteInfo = Rutebuss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10C4AFB19BB697E00A4052B /* PlaceHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceHolderView.xib; sourceTree = "<group>"; };
+		F10C4AFD19BB6A8700A4052B /* PlaceHolderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderUIView.swift; sourceTree = "<group>"; };
+		F18D95E519AF95A4007E0BE3 /* Rutebuss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rutebuss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18D95E919AF95A4007E0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18D95EA19AF95A4007E0BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F18D95EC19AF95A4007E0BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18D95EF19AF95A4007E0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18D95F119AF95A4007E0BE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F18D95F719AF95A4007E0BE3 /* RutebussTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutebussTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18D95FC19AF95A4007E0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18D95FD19AF95A4007E0BE3 /* RutebussTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutebussTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18D95E219AF95A4007E0BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18D95F419AF95A4007E0BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18D95DC19AF95A4007E0BE3 = {
+			isa = PBXGroup;
+			children = (
+				F18D95E719AF95A4007E0BE3 /* Rutebuss */,
+				F18D95FA19AF95A4007E0BE3 /* RutebussTests */,
+				F18D95E619AF95A4007E0BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18D95E619AF95A4007E0BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18D95E519AF95A4007E0BE3 /* Rutebuss.app */,
+				F18D95F719AF95A4007E0BE3 /* RutebussTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18D95E719AF95A4007E0BE3 /* Rutebuss */ = {
+			isa = PBXGroup;
+			children = (
+				F18D95EA19AF95A4007E0BE3 /* AppDelegate.swift */,
+				F18D95EC19AF95A4007E0BE3 /* ViewController.swift */,
+				F18D95EE19AF95A4007E0BE3 /* Main.storyboard */,
+				F18D95F119AF95A4007E0BE3 /* Images.xcassets */,
+				F18D95E819AF95A4007E0BE3 /* Supporting Files */,
+				F10C4AFB19BB697E00A4052B /* PlaceHolderView.xib */,
+				F10C4AFD19BB6A8700A4052B /* PlaceHolderUIView.swift */,
+			);
+			path = Rutebuss;
+			sourceTree = "<group>";
+		};
+		F18D95E819AF95A4007E0BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18D95E919AF95A4007E0BE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18D95FA19AF95A4007E0BE3 /* RutebussTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18D95FD19AF95A4007E0BE3 /* RutebussTests.swift */,
+				F18D95FB19AF95A4007E0BE3 /* Supporting Files */,
+			);
+			path = RutebussTests;
+			sourceTree = "<group>";
+		};
+		F18D95FB19AF95A4007E0BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18D95FC19AF95A4007E0BE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18D95E419AF95A4007E0BE3 /* Rutebuss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18D960119AF95A4007E0BE3 /* Build configuration list for PBXNativeTarget "Rutebuss" */;
+			buildPhases = (
+				F18D95E119AF95A4007E0BE3 /* Sources */,
+				F18D95E219AF95A4007E0BE3 /* Frameworks */,
+				F18D95E319AF95A4007E0BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rutebuss;
+			productName = Rutebuss;
+			productReference = F18D95E519AF95A4007E0BE3 /* Rutebuss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18D95F619AF95A4007E0BE3 /* RutebussTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18D960419AF95A4007E0BE3 /* Build configuration list for PBXNativeTarget "RutebussTests" */;
+			buildPhases = (
+				F18D95F319AF95A4007E0BE3 /* Sources */,
+				F18D95F419AF95A4007E0BE3 /* Frameworks */,
+				F18D95F519AF95A4007E0BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18D95F919AF95A4007E0BE3 /* PBXTargetDependency */,
+			);
+			name = RutebussTests;
+			productName = RutebussTests;
+			productReference = F18D95F719AF95A4007E0BE3 /* RutebussTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18D95DD19AF95A4007E0BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Simen Johannessen";
+				TargetAttributes = {
+					F18D95E419AF95A4007E0BE3 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2XM6XJH8AD;
+					};
+					F18D95F619AF95A4007E0BE3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F18D95E419AF95A4007E0BE3;
+					};
+				};
+			};
+			buildConfigurationList = F18D95E019AF95A4007E0BE3 /* Build configuration list for PBXProject "Rutebuss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18D95DC19AF95A4007E0BE3;
+			productRefGroup = F18D95E619AF95A4007E0BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18D95E419AF95A4007E0BE3 /* Rutebuss */,
+				F18D95F619AF95A4007E0BE3 /* RutebussTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18D95E319AF95A4007E0BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18D95F019AF95A4007E0BE3 /* Main.storyboard in Resources */,
+				F18D95F219AF95A4007E0BE3 /* Images.xcassets in Resources */,
+				F10C4AFC19BB697E00A4052B /* PlaceHolderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18D95F519AF95A4007E0BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18D95E119AF95A4007E0BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18D95ED19AF95A4007E0BE3 /* ViewController.swift in Sources */,
+				F18D95EB19AF95A4007E0BE3 /* AppDelegate.swift in Sources */,
+				F10C4AFE19BB6A8700A4052B /* PlaceHolderUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18D95F319AF95A4007E0BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18D95FE19AF95A4007E0BE3 /* RutebussTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18D95F919AF95A4007E0BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18D95E419AF95A4007E0BE3 /* Rutebuss */;
+			targetProxy = F18D95F819AF95A4007E0BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18D95EE19AF95A4007E0BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18D95EF19AF95A4007E0BE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18D95FF19AF95A4007E0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18D960019AF95A4007E0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18D960219AF95A4007E0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Rutebuss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F18D960319AF95A4007E0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Rutebuss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F18D960519AF95A4007E0BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rutebuss.app/Rutebuss";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RutebussTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F18D960619AF95A4007E0BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rutebuss.app/Rutebuss";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RutebussTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18D95E019AF95A4007E0BE3 /* Build configuration list for PBXProject "Rutebuss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18D95FF19AF95A4007E0BE3 /* Debug */,
+				F18D960019AF95A4007E0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18D960119AF95A4007E0BE3 /* Build configuration list for PBXNativeTarget "Rutebuss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18D960219AF95A4007E0BE3 /* Debug */,
+				F18D960319AF95A4007E0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18D960419AF95A4007E0BE3 /* Build configuration list for PBXNativeTarget "RutebussTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18D960519AF95A4007E0BE3 /* Debug */,
+				F18D960619AF95A4007E0BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18D95DD19AF95A4007E0BE3 /* Project object */;
+}
